@@ -9,6 +9,7 @@ type TaskData = {
     status: 'not-finish' | 'done';
   }
 let isdoned = 0
+
   
 const Todo = () => {
   
@@ -70,6 +71,7 @@ const Todo = () => {
         isdoned++
         setTasks(arrtask) 
     }
+
     return (
         <div className='mx-auto max-w-4xl'>
              <div className='flex space-x-1'>
